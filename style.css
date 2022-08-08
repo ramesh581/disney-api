@@ -1,0 +1,42 @@
+
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    background:linear-gradient(45deg, rgba(53, 243, 6, 0.5) 0%, rgba(221, 11, 11, 0.5));
+}
+div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(3, 49, 232, 0.1);
+    font-size: medium;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    width: 250px;
+}
+
+div img{
+    border-radius: 50%  ;
+}
+
+a{
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(75, 162, 212);
+}
+
